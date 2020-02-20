@@ -1,0 +1,32 @@
+{
+  "name": "webpack-min",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "serve": "^11.3.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "scripts": {
+    "test": "test",
+    "startTest": "node test.js",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
+    "serwuj": "serve -s dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": []
+}
