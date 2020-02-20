@@ -1,6 +1,12 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 import _ from 'lodash'
+import Init from './js/components/Init';
+
 import './style.less';
 
-const funka = () => document.querySelector('body').textContent = 'startuj';
-
-funka()
+const body =  document.querySelector('body');
+body 
+    ? ReactDOM.render(<Init />, body) 
+    : body.textContent = 'nie ma reacta';
