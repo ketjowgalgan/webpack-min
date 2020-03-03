@@ -1,18 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
 
 import './Init.less';
 
-class Init extends Component {
+class Init extends React.PureComponent {
     constructor() {
         super();
 
         this.state = {
-            value: ""
+            value: "stan poczatkowy"
         };
     }
-
+    
     render() {
-        return (<div>Init komponent</div>);
+        return (<div>Init komponent {this.state.value}</div>);
     }
 }
 
