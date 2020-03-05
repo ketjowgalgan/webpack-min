@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- react-min
 
 pool:
   vmImage: 'ubuntu-latest'
