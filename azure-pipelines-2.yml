@@ -44,4 +44,4 @@ stages:
         deployToSlotOrASE: true
         resourceGroupName: 'web'
         slotName: 'production'
-        containers: 'reactmin'
+        containers: 'webregistry1.azurecr.io/reactmin:latest'
