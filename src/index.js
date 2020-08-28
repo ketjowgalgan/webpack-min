@@ -1,4 +1,4 @@
 import _ from 'lodash'
 import './style.less';
 
-document.querySelector('body').textContent = 'startuj2';
+document.querySelector('body').textContent = 'kocham Krysie';
