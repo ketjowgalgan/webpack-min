@@ -35,7 +35,9 @@ stages:
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
         containerRegistry: $(dockerRegistryServiceConnection)
-        includeLatestTag: true
+        tags: |
+          $(tag)
+          latest
     - task: AzureWebAppContainer@1
       inputs:
         azureSubscription: 'Visual Studio Enterprise(1)(d9d6c505-58c3-4dae-ac2a-8a68817f22f3)'
