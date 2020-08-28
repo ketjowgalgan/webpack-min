@@ -1,8 +1,4 @@
 # Docker
-- task: AzureWebAppContainer@1
-  inputs:
-    azureSubscription: 'Visual Studio Enterprise(d9d6c505-58c3-4dae-ac2a-8a68817f22f3)'
-    appName: 'webAppDocker1'
 # Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
